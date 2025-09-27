@@ -1,0 +1,3 @@
+// Exercício 52: Escreva uma função que calcule o n-ésimo número de Fibonacci.
+function fib(n){ if(n<=1) return n; let a=0,b=1; for(let i=2;i<=n;i++){ [a,b]=[b,a+b]; } return b; }
+console.log(fib(10));
